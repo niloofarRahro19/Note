@@ -3,7 +3,6 @@ package com.example.note;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,9 +25,9 @@ import java.util.HashMap;
 
 public class sabtnam extends AppCompatActivity {
     TextView login;
-    TextView email;
-    TextView name;
-    TextView pass;
+    EditText email;
+    EditText name;
+    EditText pass;
     Button submit;
     DatabaseReference mrootref;
     FirebaseAuth mAuth;
