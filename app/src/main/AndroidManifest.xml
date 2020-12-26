@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".note"></activity>
+        <activity android:name=".notebook" />
+        <activity android:name=".recycleadapter" />
+        <activity android:name=".androidmodeldata" />
+        <activity android:name=".androidnote" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".login" />
         <activity android:name=".sabtnam">
             <intent-filter>
